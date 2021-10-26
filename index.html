@@ -6,19 +6,40 @@
         <meta property="og:description" content="Stuff I do for fun" />
         <meta property="og:image" content="https://i.imgur.com/LuyOcde_d.webp?maxwidth=760&fidelity=grand" />
     
-
         <title>Welcome to my website!</title>
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
-    <body>
+
+    <body style="text-align: center">
         <h1> Hi, I'm Daniel Liu</h1>
         <h2> This is written on the macbook</h2> 
         <p> I totally did everything :) </p>
         <p>jin test:)</p>
         
-        <img src="fhss/img/SHIROOO.jpg" width="253" height="503">
+        <!-- <img src="fhss/img/SHIROOO.jpg" width="253" height="503"> -->
         
+        <textarea id="inputBox" rows=20  cols=60> </textarea>>
+        <br><br>
+    
+
+        <p>Word Count:
+                <span id="show">0</span>
+        </p>
         
-       
+        <script>
+            function countWords(){
+                var text = document.createElement("inputBox").value;
+                var numWords = 0;
+                for(var i = 0; i<text.length() ; i++){
+                    var currentCharacter = text[i];
+
+                    if(currentCharacter == " "){
+                        numWords+=1;
+                    }
+                }
+                document.getElementById("show").innerHTML = numWords;
+            }
+        </script>
+
     </body>
 </html>
