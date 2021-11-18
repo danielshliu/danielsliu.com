@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: grey;
+}
+
+title{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: white;
+}
+
+textarea{
+    background-color:rgb(49, 48, 48);
+    color:white;
+
+
+}
+
+
