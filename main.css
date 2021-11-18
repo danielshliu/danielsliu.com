@@ -34,7 +34,7 @@ a.button{
     margin: 10px;
     border: 50px;
     position: absolute;
-    left: 37%;
+    left: 45%;
     top: 13%;
     line-height: normal;
     vertical-align: baseline;
@@ -58,7 +58,7 @@ p{
     padding:0;
     border:0;
     vertical-align :baseline;
-    position: absolute;
+
     top:15%;
     left:5%;
     font-size: 32px;
