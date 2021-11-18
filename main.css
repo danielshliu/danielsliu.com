@@ -29,11 +29,14 @@ h2{
 
 a.button{
     background-color: white;
-    top:17.5%;
-    left:37%;
+    top:14%;
+    left:45%;
     position: absolute;
     padding: 20px 64px ;
     font-size: 16px ;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -51,6 +54,10 @@ img{
     padding: 5px;
     }
 p{
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align :baseline;
     position: absolute;
     top:15%;
     left:5%;
