@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta property="og:title" content="Daniel Liu" />
+        <meta property="og:description" content="My Yeet Website" />
+        <meta property="og:image" content="https://i.imgur.com/LuyOcde_d.webp?maxwidth=760&fidelity=grand" />
+
+        <title>Word Count</title>
+        <link rel="stylesheet" type="text/css" href="../main.css">
+
+    </head>
+    <body style="text-align: center">
+    <div>
+        <p>Character Count:
+            <span id="wordCount"></span>
+        </p>
+        <textarea ></textarea>
+
+    </div>
+
+    <script>
+        $('textarea').keyup(updateCount);
+        $('textarea').keydown(updateCount);
+
+        function updateCount() {
+            var cs = $(this).val().length;
+            $('#wordCount').text(cs); 
+        }
+    </script>
+    
+
+    </body>
+</html>
