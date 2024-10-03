@@ -5,9 +5,6 @@ body {
     background-color: grey;
 }
 
-title{
-    text-align: center;
-}
 .center{
     display: block;
     margin-left:auto;
@@ -15,12 +12,13 @@ title{
     width:100;
 }
 
-h1{
-    text-align: center;
-    font-size: 32px;
+.intro{
+    text-align: left;
+    font-size: 24px;
     font-family: Palatino, 'Palatino Linotype', serif;
-    color: rgb(243, 243, 243);
+    color: white;
 }
+
 h2{
     text-align: center;
 
