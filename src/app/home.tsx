@@ -1,6 +1,6 @@
 "use client";
 
-import Wordcount from './wordCount';
+import Wordcount from './wordcount';
 
 export default function Homepage(){
 

@@ -2,16 +2,16 @@
 
 import Image from "next/image";
 import Homepage from "./home";
-import Wordcount from "./wordCount";
+import Wordcount from "./wordcount";
 
 
 export default function Home() {
   return (
 
-    // <Homepage/>
+    <Homepage/>
  
 
-    <Wordcount/>
+    // <Wordcount/>
   
   );
 
