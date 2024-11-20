@@ -1,8 +1,15 @@
 "use client";
 
+import { useRouter } from 'next/navigation';
 import Wordcount from './wordcount';
 
+
+
 export default function Homepage(){
+
+
+    const router = useRouter();
+
 
     return(
         <div className = "flex flex-col h-screen bg-gray-600 p-6 ">
@@ -16,7 +23,11 @@ export default function Homepage(){
             <div className="flex justify-center">
                 <div className="w-35 mr-6">
                     <div className="flex space-x-4 mb-4">
-                        <button onClick = {() => Wordcount() }className="flex w-[20vh] px-10 py-2 bg-blue-500 text-white rounded-lg justify-center">Word Counter</button>
+                        <button 
+                        onClick = { () => router.push('/wordcount')}
+                        className="flex w-[20vh] px-10 py-2 bg-blue-500 text-white rounded-lg justify-center"
+                        > Word Counter
+                        </button>
                     </div>
 
                 </div>
@@ -28,6 +39,8 @@ export default function Homepage(){
                 </div>
 
             </div>
+
+         
         </div>
     );
 }
