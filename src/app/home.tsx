@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from 'next/navigation';
-import Wordcount from './wordcount';
+import Wordcount from './wordcount/page';
 
 
 

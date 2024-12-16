@@ -1,16 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import Homepage from "./home";
-import Wordcount from "./wordcount";
+import Wordcount from "./wordcount/page";
 
 
 export default function Home() {
   return (
 
     <Homepage/>
- 
-
     // <Wordcount/>
   
   );
