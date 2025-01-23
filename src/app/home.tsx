@@ -60,7 +60,7 @@ export default function home(){
             <div className = "flex flex-col h-screen bg-zinc-50 dark:bg-zinc-900 p-6 ">
                 <div className='flex justify-center m-10 font-bold text-2xl'>
                     Working on the rest of my website! <br />
-                    Be back soon!
+                    Be back soon!!
                 </div>
                 <div className="flex justify-center">
                     <div className="w-35 mr-6">
