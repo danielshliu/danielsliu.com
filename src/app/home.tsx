@@ -45,8 +45,9 @@ export default function home(){
                                 </div>
 
                             </div>
-
-                            <img src="/headShot.jpg" alt="headShot" className="w-[40vh] "/>
+                            <div className='flex w-[40vh] h-[50vh] item-center justify-center'>
+                                <img src="/headShot.jpg" alt="headShot" className="w-[40vh]"/>
+                            </div>
                           
                           
                         </div>
