@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 import 'dotenv/config';
-import { use, useState } from 'react';
+import { useState } from 'react';
 
 
 interface PlayerData{
