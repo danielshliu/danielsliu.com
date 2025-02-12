@@ -24,31 +24,28 @@ export default function home(){
                         }}
                         className="relative flex flex-col gap-4 items-center justify-center px-4"
                     >
-                        <div className='flex flex-row'>
-                            <div className='flex mx-[10vh]'>
-                                <div className='grid grid-col'>
-                                    <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-                                        Hi I'm Daniel!
-                                    </div>
-
-                                    <div className="font-extralight font-mono text-base md:text-4xl dark:text-neutral-200 py-4 ">
-                                        I am a
-                                        <TypewriterComponent
-                                            options={{
-                                                strings: ['Full-Stack Developer', 'Photographer', 'Volunteer'],
-                                                autoStart: true,
-                                                loop: true,
-                                
-                                            }}
-                                            />
-                                    </div>
+                        <div className='grid grid-cols-2'>
+                            <div className='grid grid-col m-8'>
+                                <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+                                    Hi I'm Daniel!
                                 </div>
 
+                                <div className="font-extralight font-mono text-base md:text-4xl dark:text-neutral-200 py-4 ">
+                                    I am a
+                                    <TypewriterComponent
+                                        options={{
+                                            strings: ['Full-Stack Developer', 'Photographer', 'Volunteer'],
+                                            autoStart: true,
+                                            loop: true,
+                            
+                                        }}
+                                        />
+                                </div>
                             </div>
-                            <div className='flex w-[40vh] h-[50vh] item-center justify-center'>
-                                <img src="/headShot.jpg" alt="headShot" className="w-[40vh]"/>
+
+                            <div className="grid place-content-center ">
+                                <img src="/headShot.jpg" alt="headShot" className="w-[40vh] "/>
                             </div>
-                          
                           
                         </div>
                         {/* <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">

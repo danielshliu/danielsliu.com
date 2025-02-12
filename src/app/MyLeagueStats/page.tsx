@@ -21,7 +21,7 @@ export default function MyLeaugeStats(){
     const [playerData, setPlayerData] = useState<PlayerData | null>(null);
     const [rankedData, setRankedData] = useState<RankData[]>([]);
 
-
+    
     return(
         <div>
             Bello!
