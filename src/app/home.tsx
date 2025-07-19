@@ -10,7 +10,7 @@ export default function home(){
 
     const router = useRouter();
     
-    return(
+    return( 
         <div>
             <div className=''>       
                 <AuroraBackground>
