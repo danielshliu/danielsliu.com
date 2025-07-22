@@ -9,9 +9,9 @@ import AuraBG from "./auraBG";
 export default function Home() {
   return (
 
-    // <Homepage/>
+    <Homepage/>
     //Testing Parallax in LandingPage
-    <LandingPage/>
+    // <LandingPage/>
     // <AuraBG/>
   );
 
